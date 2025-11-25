@@ -1,0 +1,13 @@
+saya membuat proyek dashboard maintenance (predictive, CMMS, preventive, pendataan) pada mobile qeuipment tambang dengan code:
+
+saya ingin menambahkan isi pada tab-tab tersebut dengan detail sebagai berikut:
+1. pada tab CBM tolong buatkan data dari sensor-sensor yang terhubung pada kendaraan truck CAT777D dan buatkan visualisasi nya seperti plot anomaly detection oleh model isolation forest, grafik dengan ada nya threshold jadi kalo pattern menembus threshold maka dikatakaan bahaya atau anomali itu nilai alarm, failure saat grafik menunjukan residual yang meningkat atau gap antara nilai data yang terprediksi/ekspetasi dengan data aktual nya, lalu ada visualisasi plot klasifikasi KNN untuk failure prediction
+2. pada tab PdM menampilkan grafik forecasting dari data sensor-sensor tersebut dengan acuan kapan akan menabrak threshold atau nilai set alarm, nilai forecasting data sensornya juga menjadi failure prediction dengan visualisasi plot klasifikasi KNN ini data forecasting nya bukan realtimenya, integrasi juga dengan plot anomaly detection dengan isolation forest pada data forecastingnya, lalu ada RUL forecasting dengan grafik OEE pattern jadi estimasi OEE menunjukan kendaraan rusak atau gagal, lalu ada RUL run-to-failure dengan tampilan grafik dengan banyak garis degradasi dari nilai Health Index dan data aktual healh index nya mendekati ke failure yang mana
+
+Data tolong di buat per jam dalam rentang 3 bulan dan hasilnya tolong saling mendukung bukan ada yang mengatakan anomali ada yang tidak, ada yang mengatakan failure dan ada yang tidak jadi aneh, dan sebagai referensi untuk limit event CAT777D:
+
+lalu ada data AHEAD alarm dan instruksi untuk CAT777D:
+
+lalu setiap anomali atau failure terdeteksi masukan pada bagian tab Aler System, untuk KPI seperti MTBF MTTR Availability Reliability Quality dan isi lainnya, pada main activity berisi data pergantian sparepart jadwal tipe dll,  pada VHMS isi sesuaikan, dan Oil Analysis berisi tipe oli dan kapan terakhir di ganti dll
+
+tolong data realistis, mengacu hukum fisika, saling terhubung, dan hasil visualisasinya tolong level profesional, serta pada tampilan tiap tab tolong sesuaikan dengan desain awal pada code bukan hanya dari segi warna melaikan posisi dll, anda juga boleh tambahkan tabel atau apapun itu agar lebih profesional, buatkan ya jangan apa adanya tolong berikan yang terbaik dan ada bebas menambahkan hal lainnya
